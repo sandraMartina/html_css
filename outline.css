@@ -1,0 +1,15 @@
+div {
+    padding: 0px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border: 15px;
+    width: 100px;
+    height: 100px;
+    outline: solid 2px;
+    outline: 10px dotted green;
+}
+
+div:active,
+div:focus {
+    outline: 4px dotted black;
+}

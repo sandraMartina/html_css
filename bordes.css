@@ -1,0 +1,25 @@
+div {
+    padding: 50px;
+    margin: 190px 10px 10px 600px;
+    width: 470px;
+    height: 350px;
+    border: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-top-style: dotted;
+    border-top-color: green;
+    border-left-style: double;
+    border-right-style: dashed;
+    border-right-color: blue;
+}
+
+h1 {
+    text-align: justify;
+    padding: 30px;
+    height: 2px;
+}
+
+p {
+    text-align: justify;
+    padding: 25px;
+}

@@ -1,0 +1,87 @@
+/* Ej1. Con esto seleccionamos todes los elementos */
+
+* {}
+
+
+/* Ej2. Con esto seleccionamos todos los elementos P*/
+
+p {}
+
+
+/* Ej3. Con esto seleccionamos todos los elementos con title ID-1*/
+
+#title-1 {}
+
+
+/* Ej4. Con esto seleccionamos tods los elementos que pertenezca a la clase .bg-yellow*/
+
+li.bg-yellow {}
+
+
+/* Ej5. Con esto seleccionamos todos los elementos que tengan el atributo ID */
+
+*[id] {}
+
+
+/* Ej6. Con esto seleccionamos todos los elementos que tengan el atributo ID y como valor title-1*/
+
+*[id="title-1"] {}
+
+
+/* Ej7. Con esto seleccionamos todos los elementos que tengan el atributo HREF  con un valor https://www.yahoo.es */
+
+*[href="https://www.yahoo.com"] {}
+
+
+/* Ej8. Con esto seleccionamos todos los elementos que contienen el atributo "class" con valor que comienza por "title" */
+
+*[class^="title"] {}
+
+
+/* Ej9. Con esto seleccionamos todos los elementos que contienen el atributo HREF  y que acabe en com */
+
+*[href$=".com"] {}
+
+
+/* Ej10. Con esto seleccionamos todos los elementos que tengan el atributo class con un valor title, title-1, title-2*/
+
+[class*="title"],
+[class*=" title-"],
+[class*=" title-2"] {}
+
+
+/* Ej11. Con esto seleccionamos todos los elementos que tengan el atributo href cuyo valor contenga 127*/
+
+*[href*="27"] {}
+
+
+/* Ej12. Con esto seleccionamos todos los elementos que tengan el atributo href cuyo valor empieza por http*/
+
+*[href^="http"] {}
+
+
+/* Ej13. Con esto seleccionamos todos los elementos que sean A, P, o H1, desde una unica regla css */
+
+a,
+p,
+h1 {}
+
+
+/* Ej14. Con esto seleccionamos todos los elementos que pertenezcan a main y que sean p */
+
+main p {}
+
+
+/* Ej15. Con esto seleccionamos el elementos que sea hermano de h1 */
+
+h1+* {}
+
+
+/* Ej16. Con esto seleccionamos todos los elementos que sea hermano de h1 */
+
+h1~* {}
+
+
+/* Ej17. Con esto seleccionamos todos los elementos que sea hijos directos de main */
+
+main>* {}

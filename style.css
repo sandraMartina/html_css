@@ -13,3 +13,9 @@ input:in-range {
 input:out-of-range {
     background-color: chocolate;
 }
+
+div {
+    column-count: 3;
+    column-gap: 45px;
+    column-rule: solid 3px;
+}
