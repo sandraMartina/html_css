@@ -9,6 +9,16 @@ div {
     outline: 10px dotted green;
 }
 
+div:hover {
+    outline: 4px dotted black;
+}
+
+
+/* Aqui lo que estamos haciendo es que cuando hacemos 
+click sobre el  div, nos cambiara el color, claro 
+esta que no podremos notarlo porque tenemos el :hover 
+activado */
+
 div:active,
 div:focus {
     outline: 4px dotted black;
